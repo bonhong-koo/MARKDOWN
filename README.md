@@ -1,8 +1,12 @@
 # MARKDOWN
 MARKDOWN_20250714
 ### 6. 링크(Link)
-`[링크렉스] (URL) 형태로 작성합니다.
+'[링크렉스] (URL) 형태로 작성합니다.'
 
+[PCWK Daum](https://cafe.daum.net/pcwk)
+
+**같은 페이지내 하이퍼 링크**
+[여기](**#4-**)
 
 ### 5.목록
 **순서 있는 목록**
@@ -21,17 +25,17 @@ MARKDOWN_20250714
 
 ### 4. 코드블록
 **인라인 코드**
-'System.out.println("Hello, world!");
+`System.out.println("Hello, world!");`
 
 **코드 블록**
 ```java
-'public class Hello {
+public class Hello {
 	public static void main(String []args){
 		//console : "Hello, world!" 메시지 출력
 		System.out.println("Hello, world!");
 	}
 }
-'
+```
 
 ### 3. 인용상자
 >여기에 인용할 내용을 넣으면 됩니다.
